@@ -1,0 +1,40 @@
+.testemunhobackground{
+  border-radius: 12px;
+
+  /* gradiente */
+  background: linear-gradient(120deg, #0e325b, #1a6bb8, #7b2cbf, #0e325b);
+  background-size: 400% 400%;
+
+  /* animação */
+  animation: gradienteMovendo 10s ease infinite;
+
+  padding: 20px;
+}
+
+@keyframes gradienteMovendo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+img{
+  border-radius: 12px;
+}
+#title{
+  border-radius: 12px;
+
+  /* gradiente */
+  background: linear-gradient(120deg, #0e325b, #1a6bb8, #7b2cbf, #0e325b);
+  background-size: 400% 400%;
+
+  /* animação */
+  animation: gradienteMovendo 10s ease infinite;
+
+  padding: 20px;
+}
